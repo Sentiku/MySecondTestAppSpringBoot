@@ -9,5 +9,4 @@ import org.springframework.validation.BindingResult;
 @Service
 public interface ValidationService {
     void isValid(BindingResult bindingResult) throws ValidationFailedException;
-    void UCException(Response response) throws UnsupportedCodeException;
 }
